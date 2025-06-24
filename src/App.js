@@ -36,7 +36,7 @@ function App() {
   }
 
   return (
-    <div className="App w-100">
+    <div className="App w-100 d-flex align-items-center">
       <div className='maxWidth mx-auto'>
         <h1 className='mainHeading'>Simple Weather App</h1>
         <form onSubmit={getData}>
