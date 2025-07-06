@@ -44,7 +44,7 @@ function App() {
         </form>
 
         <div className='secondDiv bg-white shadow-lg mx-auto'>
-          <img className={`w-25 ${(isLoading) ? "" : "d-none"}`} src='https://media.tenor.com/WX_LDjYUrMsAAAAi/loading.gif' alt={"buffering image"}></img>
+          <img className={`w-25 ${(isLoading) ? "" : "d-none"}`} src='https://media.tenor.com/WX_LDjYUrMsAAAAi/loading.gif' alt={"buffering gif"}></img>
           {(wDetail !== undefined)
             ?
             <div>
